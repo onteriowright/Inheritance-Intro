@@ -8,7 +8,11 @@ namespace InheritanceIntro
     public void RefuelTank() { }
     public override void Stop()
     {
-      Console.WriteLine($"The Cessna rolled to a stop!");
+      Console.Write($"The {Name} rolled to a stop! ");
+    }
+    public override void Turn()
+    {
+      Console.Write($"The {Name} gently turned right! ");
     }
   }
 }

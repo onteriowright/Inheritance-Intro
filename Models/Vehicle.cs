@@ -4,19 +4,20 @@ namespace InheritanceIntro
 {
   public class Vehicle
   {
+    public string Name { get; set; }
     public string MainColor { get; set; }
     public int MaxOccupancy { get; set; }
     public virtual void Drive()
     {
-      Console.WriteLine("Vroom!");
+      Console.WriteLine("Vroom! ");
     }
     public virtual void Stop()
     {
-      Console.WriteLine("The vehicle hit brakes!");
+      Console.Write($"The {Name} hit brakes! ");
     }
     public virtual void Turn()
     {
-      Console.WriteLine("The vehicle gently turned right!");
+      Console.Write($"The {Name} gently turned right! ");
     }
   }
 }

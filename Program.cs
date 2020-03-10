@@ -9,31 +9,35 @@ namespace InheritanceIntro
             var myBike = new Zero();
             myBike.MainColor = "Black";
             myBike.MaxOccupancy = 2;
+            myBike.Name = "Zero";
 
             var myTesla = new Tesla();
             myTesla.MainColor = "Space Gray";
             myTesla.MaxOccupancy = 6;
+            myTesla.Name = "Tesla";
 
             var myCessna = new Cessna();
             myCessna.MainColor = "Wine Berry Over Gold";
             myCessna.MaxOccupancy = 4;
+            myCessna.Name = "Cessna";
 
             var myRam = new Ram();
             myRam.MainColor = "Majestic Blue";
             myRam.MaxOccupancy = 8;
+            myRam.Name = "Ram";
 
-            myBike.Drive();
             myBike.Stop();
             myBike.Turn();
-            myTesla.Drive();
+            myBike.Drive();
             myTesla.Stop();
             myTesla.Turn();
-            myCessna.Drive();
+            myTesla.Drive();
             myCessna.Stop();
             myCessna.Turn();
-            myRam.Drive();
+            myCessna.Drive();
             myRam.Stop();
             myRam.Turn();
+            myRam.Drive();
 
             Console.WriteLine(myTesla);
 
