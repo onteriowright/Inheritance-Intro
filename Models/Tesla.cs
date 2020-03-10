@@ -10,6 +10,14 @@ namespace InheritanceIntro
     {
       Console.WriteLine("Rumble Rumble!");
     }
+    public override void Stop()
+    {
+      Console.WriteLine("The telsa silently stops as it never moved!");
+    }
+    public override void Turn()
+    {
+      Console.WriteLine("The tesle squeezed a right turn!");
+    }
     public override string ToString()
     {
       return "This is my telsa";

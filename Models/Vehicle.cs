@@ -10,5 +10,13 @@ namespace InheritanceIntro
     {
       Console.WriteLine("Vroom!");
     }
+    public virtual void Stop()
+    {
+      Console.WriteLine("The vehicle hit brakes!");
+    }
+    public virtual void Turn()
+    {
+      Console.WriteLine("The vehicle gently turned right!");
+    }
   }
 }

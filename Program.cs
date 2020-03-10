@@ -23,9 +23,17 @@ namespace InheritanceIntro
             myRam.MaxOccupancy = 8;
 
             myBike.Drive();
+            myBike.Stop();
+            myBike.Turn();
             myTesla.Drive();
+            myTesla.Stop();
+            myTesla.Turn();
             myCessna.Drive();
+            myCessna.Stop();
+            myCessna.Turn();
             myRam.Drive();
+            myRam.Stop();
+            myRam.Turn();
 
             Console.WriteLine(myTesla);
 
